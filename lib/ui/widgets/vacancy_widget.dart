@@ -11,7 +11,6 @@ class VacancyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
-    print("${vacancy.id} - ${vacancy.history.length}");
     return GestureDetector(
       child: Container(
         width: screenWidth / 4,

@@ -22,11 +22,6 @@ class DefaultDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.directions_car_sharp),
-            title: Text('Caminhões'),
-            onTap: ()=>{},
-          ),
-          ListTile(
             leading: Icon(Icons.add),
             title: Text('Adicionar vaga'),
             onTap: ()=>{

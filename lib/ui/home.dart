@@ -21,7 +21,6 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Consumer<Vacancies>(
         builder: (context, vacancyController, widget) {
-          print(vacancyController.vacancies.length);
           return Column(
             children: [
               Center(
