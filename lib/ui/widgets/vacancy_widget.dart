@@ -40,6 +40,10 @@ class VacancyWidget extends StatelessWidget {
                       SizedBox(
                         height: 10,
                       ),
+                      Text('Veículo: ${vacancy.history.last.id}'),
+                      SizedBox(
+                        height: 10,
+                      ),
                       vacancy.history.length >0 ?
                       Text("Chegou: ${DateFormat("HH:mm dd/MM/yyyy").format(DateTime.parse(vacancy.history.last.horarioEntrada))}", textAlign: TextAlign.center,):
                           Text("Ninguém passou  aqui!", textAlign: TextAlign.center,)
